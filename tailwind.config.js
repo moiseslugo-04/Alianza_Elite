@@ -1,0 +1,37 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  safelist: [
+    'border-gray-800',
+    'border-orange-500',
+    'border-red-500',
+    'border-purple-500',
+    'border-pink-500',
+    'border-indigo-500',
+    'border-blue-400',
+    'text-red-600',
+    'text-orange-600',
+    'text-gray-800',
+    'text-purple-600',
+    'text-pink-600',
+    'text-indigo-600',
+    'text-blue-600',
+    // GRADIENTES Y BACKGROUND COLORS
+    'bg-gradient-to-br',
+    'from-gray-700 ',
+    'to-gray-900',
+    'rom-orange-500',
+    'bg-red-500',
+    'bg-orange-500',
+    'bg-gray-800',
+    'bg-orange-500',
+    'bg-purple-500',
+    'bg-pink-500',
+    'bg-indigo-500',
+    'bg-blue-400',
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}

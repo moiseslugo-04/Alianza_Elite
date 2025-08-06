@@ -1,0 +1,133 @@
+{
+  "about": [
+    {
+      "id": 1,
+      "title": "Estrategia de Crecimiento Acelerado",
+      "description": "Te integramos en un plan de acción donde avanzas junto a líderes activos.",
+      "icon": "Award",
+      "bgGradient": "from-red-50 to-red-100",
+      "borderColor": "border-red-200",
+      "iconBg": "bg-red-500",
+      "titleColor": "text-red-600",
+      "highlight": "⚙ Tú avanzas, nosotros empujamos contigo."
+    },
+    {
+      "id": 2,
+      "title": "Derrames Garantizados",
+      "description": "Gracias a nuestra estructura de trabajo en equipo, recibirás derrames cada semana solo por mantener tu membresía activa.",
+      "icon": "Users",
+
+      "bgGradient": "from-orange-50 to-orange-100",
+      "borderColor": "border-orange-200",
+      "iconBg": "bg-orange-500",
+      "titleColor": "text-orange-600",
+      "highlight": "🌊 Siempre llega gente nueva debajo de ti."
+    },
+
+    {
+      "id": 3,
+      "title": " Ganancias en tus Primeros 2 Meses",
+      "description": "No necesitas experiencia. Siguiendo nuestro plan, puedes ver tus primeras ganancias dentro de los primeros 60 días.",
+      "icon": "TrendingUp",
+
+      "bgGradient": "from-gray-50 to-gray-100",
+      "borderColor": "border-gray-200",
+      "iconBg": "bg-gray-800",
+      "titleColor": "text-gray-800",
+      "highlight": "📈 Desde cero hasta tus primeros ingresos."
+    }
+  ],
+  "features": [
+    {
+      "id": 1,
+      "title": "Bonos por Ventas Directas",
+      "description": "Gana hasta el 50% inmediato por cada persona que se registre a través de ti.No necesitas esperar a fin de mes. Cada venta te paga en la semana siguiente.",
+      "icon": "Target",
+      "borderColor": "border-gray-800",
+      "iconBg": "bg-gray-800",
+      "footerText": "Ideal para generar ingresos rápidos desde el primer día.",
+      "footerColor": "text-gray-800"
+    },
+    {
+      "id": 2,
+      "title": "Bonos de Equipos Rápidos",
+      "description": "¿Tus afiliados también están invitando personas? Tú ganas por eso también. Recibe bonos en varios niveles, creando un efecto dominó que expande tus ganancias sin límites.",
+      "icon": "Users",
+      "borderColor": "border-orange-500",
+      "iconBg": "bg-orange-500",
+      "footerText": "🔥 El crecimiento puede volverse exponencial rápidamente.",
+      "footerColor": "text-orange-600"
+    },
+    {
+      "id": 3,
+      "title": "Ingresos por Matriz Forzada 2x15",
+      "description": "Solo por mantener tu membresía activa, puedes ganar hasta $2,047.50 USD mensuales gracias al sistema de derrames automáticos.No necesitas invitar a nadie para empezar a ganar.",
+      "icon": "Star",
+      "borderColor": "border-red-500",
+      "iconBg": "bg-red-500",
+      "footerText": " Sí, incluso sin referidos puedes generar ingresos residuales.",
+      "footerColor": "text-red-600"
+    },
+    {
+      "id": 4,
+      "title": "Bonos por Matching (Comisiones Iguales)",
+      "description": "LiveGood te premia con un 50% adicional de lo que tus referidos ganan en su matriz. Entre más ayudas a otros a crecer, más ganas tú.",
+      "icon": "TrendingUp",
+      "borderColor": "border-purple-500",
+      "iconBg": "bg-purple-500",
+      "footerText": " Una forma justa de recompensar tu liderazgo y visión.",
+      "footerColor": "text-purple-600"
+    },
+    {
+      "id": 5,
+      "title": "Bonos por Liderazgo",
+      "description": "Cuando apoyas a tu equipo a subir de rango, tú también ganas. El sistema reconoce tu rol como mentor y te da bonificaciones por formar nuevos líderes.",
+      "icon": "MessageCircle",
+      "borderColor": "border-pink-500",
+      "iconBg": "bg-pink-500",
+      "footerText": "👑 Construye un equipo fuerte y serás recompensado continuamente.",
+      "footerColor": "text-pink-600"
+    },
+    {
+      "id": 6,
+      "title": "Comisiones por Productos",
+      "description": "LiveGood te ofrece una tienda online lista para vender productos de alta calidad, sin inventarios ni envíos.",
+      "icon": "Store",
+      "borderColor": "border-indigo-500",
+      "iconBg": "bg-indigo-500",
+      "footerText": "🛒 Solo para quienes aman recomendar y vender.",
+      "footerText_extended": " 🚫 Sin recompras obligatorias ni metas forzadas.",
+      "footerColor": "text-indigo-600"
+    },
+    {
+      "id": 7,
+      "title": "Bonos por Rango",
+      "description": "Cada nuevo nivel alcanzado desbloquea premios, bonificaciones y prestigio dentro de la comunidad. Tu esfuerzo no pasa desapercibido.",
+      "icon": "Award",
+      "borderColor": "border-blue-400",
+      "iconBg": "bg-blue-400",
+      "footerText": "🏆 Siente el reconocimiento mientras aumentas tus ingresos.",
+      "footerColor": "text-blue-600"
+    }
+  ],
+  "events": [
+    {
+      "day": "Miércoles",
+      "type": "Presentación Semanal",
+      "time": "8:00 PM",
+      "presenter": "",
+      "topic": "Cómo usar la IA para aumentar tu alcance, claridad y enfoque en LiveGood",
+      "highlight": "✨ Aprende a trabajar menos y lograr más",
+      "bgGradient": "bg-gradient-to-br from-gray-700 to-gray-900"
+    },
+    {
+      "day": "Viernes",
+      "type": "Presentación Semanal",
+      "time": "8:00 PM",
+      "presenter": "",
+      "topic": "Aprende métodos para invitar y cerrar sin parecer vendedor",
+      "highlight": "💬 Cierre sencillo y natural",
+      "bgGradient": "bg-gradient-to-br from-orange-500 to-red-500"
+    }
+  ]
+}
