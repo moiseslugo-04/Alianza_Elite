@@ -1,0 +1,238 @@
+{
+  "globalTeams": [
+    { "src": "/team1.jpg", "alt": "Team 1", "caption": " LiveGood Spain" },
+    {
+      "src": "/team2.jpg",
+      "alt": "Team 2",
+      "caption": "Global Conference "
+    },
+    {
+      "src": "/team3.jpg",
+      "alt": "Team 3",
+      "caption": "Miami Leadership Team"
+    },
+    { "src": "/team4.jpg", "alt": "Team 4", "caption": "Spain Leadership Team" }
+  ],
+  "leaders": [
+    {
+      "image": "/image1.png",
+      "name": "Pedro Suárez",
+      "country": "Spain",
+      "time": "3 Months"
+    },
+    {
+      "image": "/image2.png",
+      "name": "Gustavo Rodríguez",
+      "country": "Spain",
+      "time": "4 Months"
+    },
+    {
+      "image": "/image3.png",
+      "name": "Reynier Salvador",
+      "country": "Spain",
+      "time": "9 Months"
+    },
+    {
+      "image": "/image4.png",
+      "name": "Dorada Castillo",
+      "country": "Spain",
+      "time": "10 Months"
+    },
+    {
+      "image": "/image5.png",
+      "name": "Jenny Rodríguez",
+      "country": "United States",
+      "time": "14 Months"
+    }
+  ],
+  "name": "Elite Alliance",
+  "company": "LiveGood",
+  "hero": {
+    "title": [
+      { "text": "Stop being a follower ", "highlight": false },
+      { "text": " become a leader", "highlight": false }
+    ],
+    "subtitle": [
+      { "text": "Join ", "highlight": false },
+      { "text": " and accelerate your success in ", "highlight": false },
+      {
+        "text": "with exclusive training, personalized support, and a high-performance network.",
+        "highlight": false
+      }
+    ],
+    "joinUs": "I Want to Join Now",
+    "knowMore": "Learn More"
+  },
+  "about": {
+    "title": [
+      { "text": "Guaranteed Growth", "highlight": false },
+      { "text": " Plan", "highlight": false }
+    ],
+    "subtitle": [
+      { "text": "We are an exclusive group of ", "highlight": false },
+      { "text": "experienced leaders", "highlight": true },
+      {
+        "text": " within LiveGood, dedicated to forming the next generation of successful leaders.",
+        "highlight": true
+      }
+    ],
+    "cards": [
+      {
+        "id": 1,
+        "title": "Accelerated Growth Strategy",
+        "description": "We integrate you into an action plan where you advance alongside active leaders.",
+        "icon": "award",
+        "bgGradient": "from-red-50 to-red-100",
+        "borderColor": "border-red-200",
+        "iconBg": "bg-red-500",
+        "titleColor": "text-red-600",
+        "highlight": "⚙ You move forward, we push with you."
+      },
+      {
+        "id": 2,
+        "title": "Income Potential with Teamwork",
+        "description": "Thanks to our collaborative structure, you have the opportunity to generate weekly income by keeping your membership active and actively participating in the team.",
+        "icon": "users",
+        "bgGradient": "from-orange-50 to-orange-100",
+        "borderColor": "border-orange-200",
+        "iconBg": "bg-orange-500",
+        "titleColor": "text-orange-600",
+        "highlight": "🌊 New people always come under you."
+      },
+      {
+        "id": 3,
+        "title": "Earnings in Your First 2 Months",
+        "description": "No experience needed. By following our plan, you can see your first earnings within the first 60 days.",
+        "icon": "trendingUp",
+        "bgGradient": "from-gray-50 to-gray-100",
+        "borderColor": "border-gray-200",
+        "iconBg": "bg-gray-800",
+        "titleColor": "text-gray-800",
+        "highlight": "📈 From zero to your first income."
+      }
+    ]
+  },
+  "features": {
+    "title": [
+      { "text": "7 Real Ways to Generate ", "highlight": true },
+      { "text": "Income", "highlight": false },
+      { "text": " with", "highlight": false }
+    ],
+    "description": "A profit system designed for those who want to build a smart business, with active and residual income, even if you're starting from zero.",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Direct Sales Bonuses",
+        "description": "Earn up to 50% immediate for each person who registers through you. You don't have to wait until the end of the month. Each sale pays you the following week.",
+        "icon": "target",
+        "borderColor": "border-gray-800",
+        "iconBg": "bg-gray-800",
+        "footerText": "Ideal to generate fast income from day one.",
+        "footerColor": "text-gray-800"
+      },
+      {
+        "id": 2,
+        "title": "Fast Team Bonuses",
+        "description": "Are your affiliates also inviting people? You earn from that too. Receive bonuses at multiple levels, creating a domino effect that expands your earnings without limits.",
+        "icon": "users",
+        "borderColor": "border-orange-500",
+        "iconBg": "bg-orange-500",
+        "footerText": "🔥 Growth can become exponential quickly.",
+        "footerColor": "text-orange-600"
+      },
+      {
+        "id": 3,
+        "title": "Forced Matrix 2x15 Income",
+        "description": "Just by keeping your membership active, you can earn up to $2,047.50 USD monthly thanks to the automatic spillover system. You don't need to invite anyone to start earning.",
+        "icon": "star",
+        "borderColor": "border-red-500",
+        "iconBg": "bg-red-500",
+        "footerText": "Yes, even without referrals you can generate residual income.",
+        "footerColor": "text-red-600"
+      },
+      {
+        "id": 4,
+        "title": "Matching Bonuses (Equal Commissions)",
+        "description": "LiveGood rewards you with an additional 50% of what your referrals earn in their matrix. The more you help others grow, the more you earn.",
+        "icon": "trendingUp",
+        "borderColor": "border-purple-500",
+        "iconBg": "bg-purple-500",
+        "footerText": "A fair way to reward your leadership and vision.",
+        "footerColor": "text-purple-600"
+      },
+      {
+        "id": 5,
+        "title": "Leadership Bonuses",
+        "description": "When you support your team to rank up, you also earn. The system recognizes your role as a mentor and gives you bonuses for forming new leaders.",
+        "icon": "messageCircle",
+        "borderColor": "border-pink-500",
+        "iconBg": "bg-pink-500",
+        "footerText": "👑 Build a strong team and you'll be continuously rewarded.",
+        "footerColor": "text-pink-600"
+      },
+      {
+        "id": 6,
+        "title": "Product Commissions",
+        "description": "LiveGood offers you an online store ready to sell high-quality products, no inventory or shipping needed.",
+        "icon": "store",
+        "borderColor": "border-indigo-500",
+        "iconBg": "bg-indigo-500",
+        "footerText": "🛒 Only for those who love recommending and selling.",
+        "footerText_extended": "🚫 No forced repurchases or quotas.",
+        "footerColor": "text-indigo-600"
+      },
+      {
+        "id": 7,
+        "title": "Rank Bonuses",
+        "description": "Each new level reached unlocks prizes, bonuses, and prestige within the community. Your effort doesn't go unnoticed.",
+        "icon": "award",
+        "borderColor": "border-blue-400",
+        "iconBg": "bg-blue-400",
+        "footerText": "🏆 Feel the recognition as you increase your earnings.",
+        "footerColor": "text-blue-600"
+      }
+    ]
+  },
+  "teams": "Our Global Teams",
+  "contact": {
+    "message": "Hello! 👋 I am {{name}}.%0A I am interested in joining *Elite Alliance*.%0A 📧 Email: {{email}}%0A 📱 Phone: {{phone}}%0A 🤝 My sponsor is: {{sponsor}}",
+    "title": [
+      { "text": "Ready to ", "highlight": false },
+      { "text": "Transform", "highlight": true },
+      { "text": " your Lifestyle?", "highlight": false }
+    ],
+    "description": "Important: This form is to help you join with the right leader and receive exclusive trainings. If you already know who invited you, please indicate it so we can assign you properly and provide personalized support.",
+    "form": {
+      "labelSponsor": "Who told you about this project?",
+      "labelName": "Full Name",
+      "labelEmail": "Email",
+      "labelSponsorPhone": "Your Sponsor's Phone",
+      "sendByWhatsapp": "Send via WhatsApp"
+    },
+    "whyJoin": {
+      "ask": "Who told you about this project?",
+      "one": "Proven system and real results",
+      "two": "Access to multiple income sources",
+      "three": "High-performance leader community",
+      "four": "No forced sales or mandatory repurchases",
+      "five": "Practical training in leadership and financial freedom"
+    },
+    "contactWithUs": "Or contact us directly:"
+  },
+  "footer": {
+    "span1": "Alliance",
+    "span2": "Elite",
+    "text": "Forming leaders who form leaders",
+    "description": "We are a community of leaders committed to collective growth. We train new leaders in LiveGood with strategic trainings and a plan that accelerates results from day one.",
+    "services": {
+      "title": "Services",
+      "one": "Prospecting with Modern Tools",
+      "two": "Natural and Pressure-Free Closings",
+      "three": "Leadership with a Success Mindset",
+      "four": "1 on 1 Mentoring for New Affiliates",
+      "five": "Weekly Group Presentations"
+    },
+    "country": "Available throughout Latin America",
+    "contact": "Contact Us"
+  }
+}

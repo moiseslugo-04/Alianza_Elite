@@ -1,34 +1,11 @@
-import { useState } from 'react'
-import { MessageCircle, Mail, Send, CheckCircle } from 'lucide-react'
+import { Icon } from '../components/Icon'
+import { useContact } from '../hooks/useContact'
+import { useLanguage } from '../hooks/useLanguage.js'
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    sponsor: '',
-  })
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    // Crear mensaje para WhatsApp
-    const message = `Hola! 👋 Soy ${formData.name}.%0A
-Estoy interesado en unirme a *Alianza Élite*.%0A
-📧 Email: ${formData.email}%0A
-📱 Teléfono: ${formData.phone}%0A
-🤝 Mi patrocinador es: ${formData.sponsor}`
-
-    const whatsappUrl = `https://wa.me/5583991646039?text=${encodeURIComponent(
-      message
-    )}`
-    window.open(whatsappUrl, '_blank')
-  }
-
-  const handleInputChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    })
-  }
+  const { t } = useLanguage()
+  const { handleSubmit, handleInputChange, formData } = useContact()
+  const titleParts = t('contact.title', { returnObjects: true })
   return (
     <section
       id='contacto'
@@ -38,15 +15,13 @@ Estoy interesado en unirme a *Alianza Élite*.%0A
         <div className='max-w-4xl mx-auto'>
           <div className='text-center mb-16'>
             <h2 className='text-4xl md:text-5xl font-bold mb-6'>
-              ¿Listo para <span className='text-orange-400'>Transformar</span>
-              tu Estilo de Vida ?
+              {titleParts[0].text}{' '}
+              <span className='text-orange-400'> {titleParts[1].text}</span>
+              {titleParts[2].text}
             </h2>
             <div className='w-24 h-1 bg-gradient-to-r from-orange-400 to-red-500 mx-auto mb-8'></div>
             <p className='text-xl text-orange-600 max-w-2xl mx-auto'>
-              Importante: Este formulario es para ayudarte a unirte con el líder
-              correcto y recibir entrenamientos exclusivos. Si ya conoces quién
-              te invitó, indícalo para que te asignemos correctamente y recibas
-              apoyo personalizado.
+              {t('contact.description')}
             </p>
           </div>
 
@@ -58,7 +33,7 @@ Estoy interesado en unirme a *Alianza Élite*.%0A
                     htmlFor='name'
                     className='block text-lg font-semibold mb-2 text-gray-100'
                   >
-                    ¿Quién te habló de este proyecto?
+                    {t('contact.form.labelSponsor')}
                   </label>
                   <input
                     type='text'
@@ -77,7 +52,7 @@ Estoy interesado en unirme a *Alianza Élite*.%0A
                     htmlFor='name'
                     className='block text-lg font-semibold mb-2 text-gray-100'
                   >
-                    Nombre Completo *
+                    {t('contact.form.labelName')}
                   </label>
                   <input
                     type='text'
@@ -96,7 +71,7 @@ Estoy interesado en unirme a *Alianza Élite*.%0A
                     htmlFor='email'
                     className='block text-lg font-semibold mb-2 text-gray-100'
                   >
-                    Email *
+                    {t('contact.form.labelEmail')}
                   </label>
                   <input
                     type='email'
@@ -115,7 +90,7 @@ Estoy interesado en unirme a *Alianza Élite*.%0A
                     htmlFor='phone'
                     className='block text-lg font-semibold mb-2 text-gray-100'
                   >
-                    Teléfono *
+                    {t('contact.form.labelSponsorPhone')}
                   </label>
                   <input
                     type='tel'
@@ -133,8 +108,8 @@ Estoy interesado en unirme a *Alianza Élite*.%0A
                   type='submit'
                   className='w-full bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:from-orange-400 hover:to-red-400 transform hover:scale-105 transition-all duration-300 shadow-2xl flex items-center justify-center gap-2'
                 >
-                  <Send className='w-5 h-5' />
-                  Enviar por WhatsApp
+                  <Icon name='send' className='w-5 h-5' />
+                  {t('contact.form.sendByWhatsapp')}
                 </button>
               </form>
             </div>
@@ -142,44 +117,57 @@ Estoy interesado en unirme a *Alianza Élite*.%0A
             <div className='space-y-8'>
               <div className='bg-gray-800/50 p-6 rounded-2xl backdrop-blur-sm'>
                 <h3 className='text-2xl font-bold mb-4 text-orange-400'>
-                  ¿Por qué unirte a Alianza LiveGood?
+                  {t('contact.whyJoin.ask')}
                 </h3>
                 <ul className='space-y-3'>
                   <li className='flex items-center gap-3'>
-                    <CheckCircle className='w-6 h-6 text-orange-400 flex-shrink-0' />
-                    <span>Sistema probado y resultados reales</span>
+                    <Icon
+                      name='checkCircle'
+                      className='w-6 h-6 text-orange-400 flex-shrink-0'
+                    />
+                    <span> {t('contact.whyJoin.one')}</span>
                   </li>
                   <li className='flex items-center gap-3'>
-                    <CheckCircle className='w-6 h-6 text-orange-400 flex-shrink-0' />
-                    <span> Acceso a múltiples fuentes de ingresos</span>
+                    <Icon
+                      name='checkCircle'
+                      className='w-6 h-6 text-orange-400 flex-shrink-0'
+                    />
+                    <span> {t('contact.whyJoin.two')}</span>
                   </li>
                   <li className='flex items-center gap-3'>
-                    <CheckCircle className='w-6 h-6 text-orange-400 flex-shrink-0' />
-                    <span>Comunidad de líderes de alto rendimiento</span>
+                    <Icon
+                      name='checkCircle'
+                      className='w-6 h-6 text-orange-400 flex-shrink-0'
+                    />
+                    <span>{t('contact.whyJoin.three')}</span>
                   </li>
                   <li className='flex items-center gap-3'>
-                    <CheckCircle className='w-6 h-6 text-orange-400 flex-shrink-0' />
-                    <span>Sin ventas forzadas ni recompras obligatorias</span>
+                    <Icon
+                      name='checkCircle'
+                      className='w-6 h-6 text-orange-400 flex-shrink-0'
+                    />
+                    <span>{t('contact.whyJoin.four')}</span>
                   </li>
                   <li className='flex items-center gap-3'>
-                    <CheckCircle className='w-6 h-6 text-orange-400 flex-shrink-0' />
-                    <span>
-                      Formación práctica en liderazgo y libertad financiera
-                    </span>
+                    <Icon
+                      name='checkCircle'
+                      className='w-6 h-6 text-orange-400 flex-shrink-0'
+                    />
+                    <span>{t('contact.whyJoin.five')}</span>
                   </li>
                 </ul>
               </div>
 
               <div className='text-center'>
                 <p className='text-gray-200 mb-4'>
-                  O contáctanos directamente:
+                  {t('contact.contactWithUs')}
                 </p>
                 <div className='flex flex-col sm:flex-row gap-4 justify-center'>
                   <a
                     href='mailto:info@alianzaelite.com'
                     className='flex items-center gap-2 bg-gray-700 px-6 py-3 rounded-lg hover:bg-gray-600 transition-colors'
                   >
-                    <Mail className='w-5 h-5' />
+                    <Icon name='email' className='w-5 h-5' />
                     Email
                   </a>
                   <a
@@ -187,7 +175,7 @@ Estoy interesado en unirme a *Alianza Élite*.%0A
                     target='_blank'
                     className='flex items-center gap-2 bg-green-600 px-6 py-3 rounded-lg hover:bg-green-500 transition-colors'
                   >
-                    <MessageCircle className='w-5 h-5' />
+                    <Icon name='messageCircle' className='w-5 h-5' />
                     WhatsApp
                   </a>
                 </div>

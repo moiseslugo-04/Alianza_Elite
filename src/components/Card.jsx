@@ -1,9 +1,10 @@
 import { CheckCircle } from 'lucide-react'
+import { Icon } from './Icon'
 import clsx from 'clsx'
 export function Card({
   title,
   description,
-  Icon,
+  icon,
   bgGradient,
   borderColor,
   iconBg,
@@ -28,7 +29,7 @@ export function Card({
             iconBg
           )}
         >
-          <Icon className='w-8 h-8 text-white' />
+          <Icon name={icon} className='w-8 h-8 text-white' />
         </div>
         <h3
           className={clsx(

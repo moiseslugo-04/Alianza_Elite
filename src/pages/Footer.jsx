@@ -1,14 +1,8 @@
-import {
-  MessageCircle,
-  Mail,
-  Phone,
-  MapPin,
-  Facebook,
-  Instagram,
-  Linkedin,
-} from 'lucide-react'
+import { Icon } from '../components/Icon'
+import { useLanguage } from '../hooks/useLanguage.js'
 
 export default function Footer() {
+  const { t } = useLanguage()
   return (
     <footer className='bg-gray-900 text-white py-16'>
       <div className='container mx-auto px-6'>
@@ -22,79 +16,77 @@ export default function Footer() {
               />
               <div>
                 <h3 className='text-3xl font-bold'>
-                  <span className='text-gray-300'>Alianza</span>{' '}
-                  <span className='text-orange-500'>Élite</span>
+                  <span className='text-gray-300'>{t('footer.span1')}</span>{' '}
+                  <span className='text-orange-500'>{t('footer.span2')}</span>
                 </h3>
-                <p className='text-gray-400'>
-                  Formando líderes que forman líderes
-                </p>
+                <p className='text-gray-400'>{t('footer.text')}</p>
               </div>
             </div>
             <p className='text-gray-300 mb-6 max-w-md'>
-              Somos una comunidad de líderes comprometidos con el crecimiento
-              colectivo. Formamos nuevos líderes en LiveGood con entrenamientos
-              estratégicos y un plan que acelera resultados desde el primer día.
+              {t('footer.description')}
             </p>
             <div className='flex gap-4'>
               <a
                 href='#'
                 className='bg-blue-600 p-3 rounded-full hover:bg-blue-500 transition-colors'
               >
-                <Facebook className='w-5 h-5' />
+                <Icon name={'facebook'} className='w-5 h-5' />
               </a>
               <a
                 href='#'
                 className='bg-pink-600 p-3 rounded-full hover:bg-pink-500 transition-colors'
               >
-                <Instagram className='w-5 h-5' />
+                <Icon name='instagram' className='w-5 h-5' />
               </a>
               <a
                 href='#'
                 className='bg-blue-700 p-3 rounded-full hover:bg-blue-600 transition-colors'
               >
-                <Linkedin className='w-5 h-5' />
+                <Icon name={'youtube'} className='w-5 h-5' />
               </a>
             </div>
           </div>
 
           <div>
             <h4 className='text-xl font-bold mb-6 text-orange-400'>
-              Servicios
+              {t('footer.services.title')}
             </h4>
             <ul className='space-y-3 text-gray-300'>
               <li>
                 <a href='#' className='hover:text-orange-400 transition-colors'>
-                  Prospección con Herramientas Modernas
+                  {t('footer.services.one')}
                 </a>
               </li>
               <li>
                 <a href='#' className='hover:text-orange-400 transition-colors'>
-                  Cierres Naturales y Sin Presión
+                  {t('footer.services.two')}
                 </a>
               </li>
               <li>
                 <a href='#' className='hover:text-orange-400 transition-colors'>
-                  Liderazgo con Mentalidad de Éxito
+                  {t('footer.services.three')}
                 </a>
               </li>
               <li>
                 <a href='#' className='hover:text-orange-400 transition-colors'>
-                 Mentoría 1 a 1 para Nuevos Afiliados
+                  {t('footer.services.four')}
                 </a>
               </li>
               <li>
                 <a href='#' className='hover:text-orange-400 transition-colors'>
-                  Presentaciones Grupales Semanales
+                  {t('footer.services.five')}
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className='text-xl font-bold mb-6 text-orange-400'>Contacto</h4>
+            <h4 className='text-xl font-bold mb-6 text-orange-400'>
+              {t('footer.contact')}
+            </h4>
             <ul className='space-y-4 text-gray-300'>
               <li className='flex items-center gap-3'>
-                <Mail className='w-5 h-5 text-orange-400' />
+                <Icon name='email' className='w-5 h-5 text-orange-400' />
                 <a
                   href='mailto:info@alianzaelite.com'
                   className='hover:text-orange-400 transition-colors'
@@ -103,7 +95,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className='flex items-center gap-3'>
-                <Phone className='w-5 h-5 text-orange-400' />
+                <Icon name='phone' className='w-5 h-5 text-orange-400' />
                 <a
                   href='tel:+5583991346039'
                   className='hover:text-orange-400 transition-colors'
@@ -112,7 +104,10 @@ export default function Footer() {
                 </a>
               </li>
               <li className='flex items-center gap-3'>
-                <MessageCircle className='w-5 h-5 text-orange-400' />
+                <Icon
+                  name='messageCircle'
+                  className='w-5 h-5 text-orange-400'
+                />
                 <a
                   href='https://wa.me/1234567890'
                   className='hover:text-orange-400 transition-colors'
@@ -121,8 +116,8 @@ export default function Footer() {
                 </a>
               </li>
               <li className='flex items-start gap-3'>
-                <MapPin className='w-5 h-5 text-orange-400 mt-1' />
-                <span>Disponible en toda Latinoamérica</span>
+                <Icon name='mapPin' className='w-5 h-5 text-orange-400 mt-1' />
+                <span> {t('footer.services.country')}</span>
               </li>
             </ul>
           </div>
@@ -130,10 +125,11 @@ export default function Footer() {
 
         <div className='border-t border-gray-800 mt-12 pt-8 text-center'>
           <p className='text-gray-400'>
-           © 2025 Alianza Élite – Todos los derechos reservados. Unidos para crecer más rápido.
+            © 2025 Alianza Élite – Todos los derechos reservados. Unidos para
+            crecer más rápido.
             <span className='text-orange-400 font-semibold'>
               {' '}
-             Juntos es mejor. Formando líderes libres y prósperos.
+              Juntos es mejor. Formando líderes libres y prósperos.
             </span>
           </p>
         </div>

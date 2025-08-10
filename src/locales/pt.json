@@ -1,0 +1,246 @@
+{
+  "globalTeams": [
+    {
+      "src": "/team1.jpg",
+      "alt": "Equipe 1",
+      "caption": "LiveGood Espanha "
+    },
+    {
+      "src": "/team2.jpg",
+      "alt": "Equipe 2",
+      "caption": "Conferência Global "
+    },
+    {
+      "src": "/team3.jpg",
+      "alt": "Equipe 3",
+      "caption": "Equipe de Liderança Miami"
+    },
+    {
+      "src": "/team4.jpg",
+      "alt": "Equipe 4",
+      "caption": "Equipe de Liderança Espanha"
+    }
+  ],
+  "leaders": [
+    {
+      "image": "/image1.png",
+      "name": "Pedro Suárez",
+      "country": "Espanha",
+      "time": "3 Meses"
+    },
+    {
+      "image": "/image2.png",
+      "name": "Gustavo Rodríguez",
+      "country": "Espanha",
+      "time": "4 Meses"
+    },
+    {
+      "image": "/image3.png",
+      "name": "Reynier Salvador",
+      "country": "Espanha",
+      "time": "9 Meses"
+    },
+    {
+      "image": "/image4.png",
+      "name": "Dorada Castillo",
+      "country": "Espanha",
+      "time": "10 Meses"
+    },
+    {
+      "image": "/image5.png",
+      "name": "Jenny Rodríguez",
+      "country": "Estados Unidos",
+      "time": "14 Meses"
+    }
+  ],
+  "name": "Aliança Elite",
+  "company": "LiveGood",
+  "hero": {
+    "title": [
+      { "text": "Pare de ser figurante ", "highlight": false },
+      { "text": " torne-se líder", "highlight": false }
+    ],
+    "subtitle": [
+      { "text": "Junte-se a ", "highlight": false },
+      { "text": " e acelere seu sucesso em ", "highlight": false },
+      {
+        "text": "com formação exclusiva, acompanhamento personalizado e uma rede de alto desempenho.",
+        "highlight": false
+      }
+    ],
+    "joinUs": "Quero me Juntar Agora",
+    "knowMore": "Saiba Mais"
+  },
+  "about": {
+    "title": [
+      { "text": "Plano de Crescimento", "highlight": false },
+      { "text": " Garantido", "highlight": false }
+    ],
+    "subtitle": [
+      { "text": "Somos um grupo exclusivo de ", "highlight": false },
+      { "text": "líderes experientes", "highlight": true },
+      {
+        "text": "dentro da LiveGood, dedicados a formar a próxima geração de líderes de sucesso.",
+        "highlight": true
+      }
+    ],
+    "cards": [
+      {
+        "id": 1,
+        "title": "Estratégia de Crescimento Acelerado",
+        "description": "Integramos você a um plano de ação onde avança junto a líderes ativos.",
+        "icon": "award",
+        "bgGradient": "from-red-50 to-red-100",
+        "borderColor": "border-red-200",
+        "iconBg": "bg-red-500",
+        "titleColor": "text-red-600",
+        "highlight": "⚙ Você avança, nós impulsionamos com você."
+      },
+      {
+        "id": 2,
+        "title": "Potencial de renda com trabalho em equipe",
+        "description": "Graças à nossa estrutura colaborativa, você tem a oportunidade de gerar renda semanal mantendo sua associação ativa e participando ativamente da equipe.",
+        "icon": "users",
+        "bgGradient": "from-orange-50 to-orange-100",
+        "borderColor": "border-orange-200",
+        "iconBg": "bg-orange-500",
+        "titleColor": "text-orange-600",
+        "highlight": "🌊 Sempre chegam pessoas novas abaixo de você."
+      },
+      {
+        "id": 3,
+        "title": "Ganhos nos Seus Primeiros 2 Meses",
+        "description": "Você não precisa de experiência. Seguindo nosso plano, pode ver seus primeiros ganhos dentro dos primeiros 60 dias.",
+        "icon": "trendingUp",
+        "bgGradient": "from-gray-50 to-gray-100",
+        "borderColor": "border-gray-200",
+        "iconBg": "bg-gray-800",
+        "titleColor": "text-gray-800",
+        "highlight": "📈 Do zero até sua primeira renda."
+      }
+    ]
+  },
+  "features": {
+    "title": [
+      { "text": "7 Formas Reais de Gerar ", "highlight": true },
+      { "text": "Renda", "highlight": false },
+      { "text": " com", "highlight": false }
+    ],
+    "description": "Um sistema de ganhos desenhado para quem quer construir um negócio inteligente, com rendas ativas e residuais, mesmo que esteja começando do zero.",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Bônus por Vendas Diretas",
+        "description": "Ganhe até 50% imediato por cada pessoa que se registrar através de você. Não precisa esperar o fim do mês. Cada venda te paga na semana seguinte.",
+        "icon": "target",
+        "borderColor": "border-gray-800",
+        "iconBg": "bg-gray-800",
+        "footerText": "Ideal para gerar renda rápida desde o primeiro dia.",
+        "footerColor": "text-gray-800"
+      },
+      {
+        "id": 2,
+        "title": "Bônus por Equipes Rápidas",
+        "description": "Seus afiliados também estão convidando pessoas? Você ganha por isso também. Receba bônus em vários níveis, criando um efeito dominó que expande seus ganhos sem limites.",
+        "icon": "users",
+        "borderColor": "border-orange-500",
+        "iconBg": "bg-orange-500",
+        "footerText": "🔥 O crescimento pode se tornar exponencial rapidamente.",
+        "footerColor": "text-orange-600"
+      },
+      {
+        "id": 3,
+        "title": "Renda pela Matriz Forçada 2x15",
+        "description": "Só por manter sua assinatura ativa, você pode ganhar até $2.047,50 USD mensais graças ao sistema de derrames automáticos. Não precisa convidar ninguém para começar a ganhar.",
+        "icon": "star",
+        "borderColor": "border-red-500",
+        "iconBg": "bg-red-500",
+        "footerText": "Sim, mesmo sem indicados você pode gerar renda residual.",
+        "footerColor": "text-red-600"
+      },
+      {
+        "id": 4,
+        "title": "Bônus por Matching (Comissões Iguais)",
+        "description": "LiveGood te recompensa com 50% adicional do que seus indicados ganham em sua matriz. Quanto mais ajuda outros a crescer, mais você ganha.",
+        "icon": "trendingUp",
+        "borderColor": "border-purple-500",
+        "iconBg": "bg-purple-500",
+        "footerText": "Uma forma justa de recompensar sua liderança e visão.",
+        "footerColor": "text-purple-600"
+      },
+      {
+        "id": 5,
+        "title": "Bônus por Liderança",
+        "description": "Quando apoia sua equipe a subir de nível, você também ganha. O sistema reconhece seu papel como mentor e te dá bonificações por formar novos líderes.",
+        "icon": "messageCircle",
+        "borderColor": "border-pink-500",
+        "iconBg": "bg-pink-500",
+        "footerText": "👑 Construa uma equipe forte e será recompensado continuamente.",
+        "footerColor": "text-pink-600"
+      },
+      {
+        "id": 6,
+        "title": "Comissões por Produtos",
+        "description": "LiveGood te oferece uma loja online pronta para vender produtos de alta qualidade, sem inventário nem envio.",
+        "icon": "store",
+        "borderColor": "border-indigo-500",
+        "iconBg": "bg-indigo-500",
+        "footerText": "🛒 Só para quem ama recomendar e vender.",
+        "footerText_extended": "🚫 Sem recompras obrigatórias nem metas forçadas.",
+        "footerColor": "text-indigo-600"
+      },
+      {
+        "id": 7,
+        "title": "Bônus por Nível",
+        "description": "Cada novo nível alcançado desbloqueia prêmios, bonificações e prestígio dentro da comunidade. Seu esforço não passa despercebido.",
+        "icon": "award",
+        "borderColor": "border-blue-400",
+        "iconBg": "bg-blue-400",
+        "footerText": "🏆 Sinta o reconhecimento enquanto aumenta seus ganhos.",
+        "footerColor": "text-blue-600"
+      }
+    ]
+  },
+  "teams": "Nossas Equipes Globais",
+  "contact": {
+    "message": "Olá! 👋 Eu sou {{name}}.%0A Estou interessado em me juntar à *Aliança Élite*.%0A 📧 Email: {{email}}%0A 📱 Telefone: {{phone}}%0A 🤝 Meu patrocinador é: {{sponsor}}",
+    "title": [
+      { "text": "Pronto para ", "highlight": false },
+      { "text": "Transformar", "highlight": true },
+      { "text": " seu Estilo de Vida?", "highlight": false }
+    ],
+    "description": "Importante: Este formulário é para ajudá-lo a se juntar com o líder correto e receber treinamentos exclusivos. Se você já sabe quem te convidou, indique para que possamos te designar corretamente e você receba apoio personalizado.",
+    "form": {
+      "labelSponsor": "Quem te falou deste projeto?",
+      "labelName": "Nome Completo",
+      "labelEmail": "Email",
+      "labelSponsorPhone": "Telefone do seu Patrocinador",
+      "sendByWhatsapp": "Enviar pelo WhatsApp"
+    },
+    "whyJoin": {
+      "ask": "Quem te falou deste projeto?",
+      "one": "Sistema comprovado e resultados reais",
+      "two": "Acesso a múltiplas fontes de renda",
+      "three": "Comunidade de líderes de alto desempenho",
+      "four": "Sem vendas forçadas nem recompras obrigatórias",
+      "five": "Formação prática em liderança e liberdade financeira"
+    },
+    "contactWithUs": "Ou contate-nos diretamente:"
+  },
+  "footer": {
+    "span1": "Aliança",
+    "span2": "Élite",
+    "text": "Formando líderes que formam líderes",
+    "description": "Somos uma comunidade de líderes comprometidos com o crescimento coletivo. Formamos novos líderes na LiveGood com treinamentos estratégicos e um plano que acelera resultados desde o primeiro dia.",
+    "services": {
+      "title": "Serviços",
+      "one": "Prospecção com Ferramentas Modernas",
+      "two": "Fechamentos Naturais e Sem Pressão",
+      "three": "Liderança com Mentalidade de Sucesso",
+      "four": "Mentoria 1 a 1 para Novos Afiliados",
+      "five": "Apresentações Grupais Semanais"
+    },
+    "country": "Disponível em toda a América Latina",
+    "contact": "Contate-nos"
+  }
+}
