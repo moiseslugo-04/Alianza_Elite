@@ -1,4 +1,4 @@
-![Capa Alianza Elite](/desktop.png)
+![Capa Alianza Elite](/public/desktop.png)
 
 # Alianza Elite - Página Web React
 
