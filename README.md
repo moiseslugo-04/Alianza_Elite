@@ -1,5 +1,10 @@
 ![Capa Alianza Elite](/public/desktop.png)
 
+## Visualizar online
+
+Você pode ver o projeto funcionando aqui:  
+[https://alianzaelite.netlify.app/](https://alianzaelite.netlify.app/)
+
 # Alianza Elite - Página Web React
 
 Este é o site oficial da **Alianza Elite**, desenvolvido com React. O projeto foi criado para oferecer uma experiência multilíngue e uma gestão eficiente do estado global, além de contar com funcionalidades essenciais como contato, galeria e carrossel melhorado.
