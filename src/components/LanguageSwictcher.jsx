@@ -4,13 +4,16 @@ import { useLanguage } from '../hooks/useLanguage.js'
 export default function LanguageSwitcher() {
   const [open, setOpen] = useState(false)
   const { language, setLanguage } = useLanguage()
+  console.log(language, 'lant')
   const languages = [
     { code: 'es', label: 'Spanish', flag: 'es' },
     { code: 'en', label: 'English', flag: 'en' },
     { code: 'pt', label: 'Portuguese', flag: 'pt' },
   ]
-  const currentLanguage = languages.find((lang) => lang.code === language)
-
+  const currentLanguage = languages.find((lang) => {
+    console.log(lang.code, language)
+    return lang.code === language
+  })
   return (
     <div className='fixed  top-4 right-4 z-50'>
       <div className='relative'>

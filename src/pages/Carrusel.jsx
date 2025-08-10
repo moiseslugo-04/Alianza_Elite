@@ -1,12 +1,17 @@
-
 import { useLanguage } from '../hooks/useLanguage.js'
+import { useScroll } from '../hooks/useScroll.js'
 
-export default function Carousel({ speed = 25 }) {
+export default function Carousel() {
   const { t } = useLanguage()
   const items = t('leaders')
+  const { containerRef } = useScroll()
   return (
-    <div className='relative overflow-hidden max-w-5xl mx-2 bg-white py-6 rounded-lg '>
-      <div className='flex animate-scroll' style={{ '--speed': `${speed}s` }}>
+    <div className='relative overflow-hidden max-w-5xl mx-2 bg-white py-6 rounded-lg'>
+      <div
+        ref={containerRef}
+        className='flex overflow-x-auto no-scrollbar scrollbar-hide scroll-smooth'
+        style={{ scrollBehavior: 'smooth' }}
+      >
         {[...items, ...items].map((item, idx) => (
           <div
             key={idx}
